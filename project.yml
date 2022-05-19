@@ -6,3 +6,4 @@ description: Hello world
 requires:
     - ip ~= 1.0.0
     - logging ~= 0.4.1
+    - std ~= 0.26.2
