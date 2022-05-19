@@ -1,0 +1,8 @@
+name: quickstart
+modulepath: libs
+downloadpath: libs
+repo: https://github.com/paerts/inmanta-probable-waddle.git
+description: Hello world
+requires:
+    - ip ~= 1.0.0
+    - logging ~= 0.4.1
