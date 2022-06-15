@@ -1,2 +1,15 @@
-msg = "Hello world"
-std::print(msg)
+server = std::Host(
+    name="internal",
+    os=std::linux,
+)
+
+std::File(
+    host=server,
+    path="/tmp/hello_fron_inmanta.txt",
+    content="Hello, World!",
+    owner="inmanta",
+    group="inmanta",
+    mode=666,
+)
+
+
